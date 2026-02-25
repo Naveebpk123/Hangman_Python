@@ -1,0 +1,11 @@
+listofwords=["apple", "banana", "cherry", "dragonfly", "elephant", "falcon", "guitar", "hamster", "island", "jungle",
+"kangaroo", "laptop", "mountain", "nebula", "ocean", "penguin", "quartz", "rabbit", "spaceship", "turtle",
+"umbrella", "volcano", "wizard", "xylophone", "yacht", "zebra", "anchor", "bicycle", "cactus", "dolphin",
+"eclipse", "forest", "glacier", "helmet", "iceberg", "jacket", "koala", "lighthouse", "magnet", "notebook",
+"octopus", "pyramid", "quiver", "rocket", "starlight", "tiger", "universe", "vampire", "waterfall", "xenon",
+"yellow", "zigzag", "astronaut", "blizzard", "comet", "dinosaur", "emerald", "flamingo", "galaxy", "harvest",
+"infinity", "jupiter", "knight", "lantern", "mermaid", "nightmare", "orchard", "phantom", "quantum", "robot",
+"sapphire", "thunder", "utopia", "velocity", "whisper", "vortex", "yogurt", "zodiac", "avalanche", "bonfire",
+"crystal", "diamond", "echo", "firefly", "guardian", "horizon", "illusion", "journey", "kingdom", "labyrinth",
+"monarch", "nomad", "oracle", "paradise", "quest", "radiance", "shadow", "treasure", "underground", "victory",
+"wildlife", "phoenix", "mystic", "rhythm", "oxygen", "pixel"]

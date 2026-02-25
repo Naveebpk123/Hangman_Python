@@ -8,4 +8,13 @@ listofwords=["apple", "banana", "cherry", "dragonfly", "elephant", "falcon", "gu
 "sapphire", "thunder", "utopia", "velocity", "whisper", "vortex", "yogurt", "zodiac", "avalanche", "bonfire",
 "crystal", "diamond", "echo", "firefly", "guardian", "horizon", "illusion", "journey", "kingdom", "labyrinth",
 "monarch", "nomad", "oracle", "paradise", "quest", "radiance", "shadow", "treasure", "underground", "victory",
-"wildlife", "phoenix", "mystic", "rhythm", "oxygen", "pixel"]
+"wildlife", "phoenix", "mystic", "rhythm", "oxygen", "pixel","astronomy", "backbone", "calendar", "database", "engineer", "feedback", "gradient", "heritage", "interest", "junction", 
+"keyboard", "latitude", "molecule", "notation", "observer", "platform", "quotation", "receiver", "software", "terminal", 
+"username", "variable", "wildcard", "activity", "boundary", "capacity", "delivery", "equation", "fraction", "graphics", 
+"hardware", "identity", "judgment", "knapsack", "location", "momentum", "negative", "operator", "parallel", "quantity", 
+"reaction", "sequence", "triangle", "umbrella", "vertical", "workflow", "aerospace", "backtrack", "checksum", "download", 
+"explorer", "filename", "gridlock", "homepage", "instance", "joystick", "keyframe", "logarithm", "metadata", "neighbor", 
+"optimize", "pipeline", "question", "renderer", "snapshot", "template", "uploader", "viewport", "webmaster", "abstract", 
+"boolean", "compiler", "debugger", "exponent", "function", "generate", "headline", "infinite", "keyboard", "language", 
+"manifest", "notifier", "override", "protocol", "register", "scaffold", "topology", "unittest", "validate", "viewport", 
+"argument", "behavior", "constant", "document", "executor", "frontend", "geometry", "hexadecimal", "interface", "keyword"]

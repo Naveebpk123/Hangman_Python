@@ -1,9 +1,6 @@
 import random
-import listofwords
-import Stages
 from listofwords import listofwords
 from Stages import Stages
-
 
 def play_game():
     word = list(random.choice(listofwords))
@@ -14,20 +11,16 @@ def play_game():
     while lives > 0:
         print(Stages[lives])
         print(f"\nWord: {' '.join(dash)}")
-        print(f"Letters guessed so far: {', '.join(guessed_letters)}")
+        print(f"Letters guessed: {', '.join(guessed_letters)}")
 
         if "_" not in dash:
             print(f"Congratulations! You won with {6 - lives} mistakes!")
-            break
+            return
 
         guess = input("Enter your letter: ").lower()
 
-        if guess == "" or guess == " ":
-            print("Please enter a valid letter.")
-            continue
-
-        if len(guess) > 1:
-            print("Please enter only one letter at a time.")
+        if not guess.isalpha() or len(guess) != 1:
+            print("Please enter a single valid letter.")
             continue
 
         if guess in guessed_letters:
@@ -49,14 +42,10 @@ def play_game():
                 print(Stages[0])
                 print(f"\nGame Over! The word was: {''.join(word)}")
 
-    play_again = input("Would you like to play again? (y/n):\n").lower()
-    if play_again == "y":
-        play_game()
-
-
-wish=input("Would you like to play Hangman Python? (y/n):\n").lower()
-if wish == "y":
+wish = input("Would you like to play Hangman Python? (y/n):\n").lower()
+while wish == "y":
     play_game()
-else:
-    print("Bye then")
+    wish = input("Would you like to play again? (y/n):\n").lower()
+
+print("Bye then")
 
